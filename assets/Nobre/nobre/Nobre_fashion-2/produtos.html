@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>    
+    <style>
+        
+        *{
+            font-family: sans-serif;
+        }
+        .bannner{
+            background-size: 100%;
+            background-image:url(oi.jpg); 
+            background-size:100% 100%;
+            background-repeat:no-repeat;
+            background-color:#cee3e4;
+
+        }
+        @media(max-width: 1000px){
+        .bannner{
+            background-size: 100%;
+            background-color:#cee3e4;
+            background-image:url(oi-900.jpg); 
+            background-size:100% 80%;
+            background-repeat:no-repeat;
+        }
+    }
+        @media(max-width: 700px){
+        .bannner{
+            background: black;
+            background-image:url(oi-700.jpg); 
+            background-size:100% 80%;
+            background-repeat:no-repeat;
+
+        }
+        .infor-produtos{
+            font-size:2em;
+        }
+    }
+        @media(max-width: 500px){
+        .bannner{
+            background-image:url(500.jpg); 
+            background-size:100% 80%;
+            background-repeat:no-repeat;
+            background-color:#cee3e4;
+}
+}
+    </style>
+    <link rel="stylesheet" href="estilo/home.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="estilo/produtos.css">
+    <link rel="stylesheet"  href="estilo/rodape.css">
+    <link rel="icon" href="logo-pequeno.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nobre-Produtos</title>
+</head>
+    <body onload="recarregando()">
+    <header class="minha-navbar navbar-toggler">
+        <article class="preta">
+            <div class="preta zona-preta zona-esquerda">
+                <ol class="links-preto fundo" >
+                    <li><a href="#">nobrefashion@gmail.com</a></li>
+                    <li><a href="#" id="numero_nobre">244 935-548-845</a></li>
+                </ol>
+            </div>
+            <div class="zona-preta zona-direita " style="float: right;">
+                <h3 class="logo-direito color">Nobre Fashion</h3>
+            </div>
+        </article>
+        <li id="mostrar"onclick="mostrar()"> 
+                        <span class="mostrar"></span>
+                        <span class="mostrar"></span>
+                        <span class="mostrar"></span>  
+                    </li>
+        <div id="logo">
+            <b id="logo_texto">Nobre <sup><span>Fashion</span></sup></b>
+            <img src="IMG/logo.png" class="imagem-logo" id="logo_imagem">
+        </div>
+          <nav class="zona-nav">
+                <ul id="links">
+                    <button class="desfazer" onclick="eliminar()">x</button>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="produtos.html" style="color:#30bce6">Produtos</a></li>
+                    <li> <a href="contactos.html" >Contactos</a></li>
+                    <li> <a href="sobre.html" class="barramento barramento-links">Sobre</a></li>
+                    <li> <a href="Ajuda.html" class="barramento-links ">Ajuda</a></li>
+                </ul>
+        </nav>
+    </header>
+        <div class="infor-produtos color"> <h2>Todos os nossos produtos</h2></div>
+             <main class="bannner">
+                <section class="itens">
+                    <h1 class="titulo" >Nossos Produtos</h1>
+                        <ol>
+                            <li><a id="camisa" class="itens-header"  href="produtos/t-shart.html">T-Shert</a>
+                                <ul class="intens-focus" id="camisas">
+                                    <li> <a href="">Azul</a></li>
+                                    <li> <a href="produtos/camisa.html">Amarelo</a></li>
+                                    <li> <a href="produtos/camisa.html">Branco</a> </li>
+                                    <li> <a href="produtos/camisa.html">Vermelho</a> </li>
+                                </ul>
+                            </li>
+                        <li ><a class="itens-header" href="produtos/casaco.html">Casacos</a>
+                            <ul class="intens-focus" id="camisas">
+                                    <li> <a href="">Azul</a></li>
+                                    <li> <a href="">Amarelo</a></li>
+                                    <li> <a href="">Branco</a> </li>
+                                    <li> <a href="">Vermelho</a> </li>
+                                </ul>
+                        </li>
+                        <li ><a class="itens-header" href="produtos/calsao.html">Carções</a> 
+                            <ul class="intens-focus" id="camisas">
+                                    <li> <a href="">Azul</a></li>
+                                    <li> <a href="">Amarelo</a></li>
+                                    <li> <a href="">Branco</a> </li>
+                                    <li> <a href="">Vermelho</a> </li>
+                                </ul>
+                        </li>
+                        <li ><a class="itens-header" href="produtos/turque.html">Turque</a>
+                                <ul class="intens-focus" id="">
+                                    <li> <a href="">Azul</a></li>
+                                    <li> <a href="">Amarelo</a></li>
+                                    <li> <a href="">Branco</a> </li>
+                                    <li> <a href="">Vermelho</a> </li>
+                                </ul>
+                         </li>
+                         <li ><a class="itens-header" href="produtos/casaco.html">Casaco</a>
+                                <ul class="intens-focus" id="">
+                                    <li> <a href="">Azul</a></li>
+                                    <li> <a href="">Amarelo</a></li>
+                                    <li> <a href="">Branco</a> </li>
+                                    <li> <a href="">Vermelho</a> </li>
+                                </ul>
+                         </li>
+                    
+                    </ol>
+                </section>
+               <section class="produtos">
+                    <h1>Informações sobre os produtos</h1>
+
+                    <p>Temos para se todos os tamanhos e cores da sua preferência todos os produtos só podem ser compradas neste plataforma ou em nossos agentes e também pelas nossas outras redes sociais.
+                    </p>
+                   </section>
+                   <!--
+              <section class="slider" id="productos">
+                </section>-->                                 
+            </main>
+            <footer>
+                <section class="rodape-zona">
+                        <div class="rodape">
+                        <ol class="links-em-linha">
+                                <h4> </h4>
+                               </div>
+
+                        <div class="rodape central">
+                            <div class="control">
+                            <ol class="links-em-linha">
+                                <h4> Links</h4>
+                                    <li> <a  href="index.html">Menu</a></li>
+                                    <li> <a  href="produtos.html">Produtos</a></li>
+                                    <li> <a  href="contactos.html">Contactos</a></li>
+                                    <li> <a  href="sobre.html">Sobre nós</a></li>
+                                    <li> <a  href="ajuda.html">Ajuda</a></li>
+                            </ol>
+                            <ol class="links-em-linha apagar-500px">
+                                <h4> Agora </h4>
+                                    <li> <a  href="#">Inovações</a></li>
+                                    <li> <a  href="#">Actualidades</a></li>
+                                    <li> <a  href="#">Novos</a></li>
+                                    <li> <a  href="#">Criatividade</a></li>
+                            </ol>
+                            <ol class="links-em-linha">
+                                <h4> Apoios </h4>
+                                    <li> <a  href="#">Creusa Baia</a></li>
+                                    <li> <a  href="#">Educando</a></li>
+                                    <li> <a  href="#">Alfa</a></li>
+                                    <li> <a  href="#">Cria aqui</a></li>
+                            </ol>
+                            </div>     
+                        </div>
+                        
+                        <div class="rodape rodape-direito">   
+                                <ol class="links-em-linha icones-links">
+                                <h4> Redes sociais </h4>
+                                    <li> <a href="#"  target="_blank"><i class="bi bi-facebook"></i></a></li>
+                                    <li> <a  href="#" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+                                    <li> <a  href="#" target="_blank"><i class="bi bi-telegram"></i></a></li>
+                                    <li> <a  href="#" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                            </ol>
+                        </div>
+                </section>
+
+                <section class="final">
+                <div class="final-esquerdo">
+                            <p> legal cookies  activar </p>
+                </div>
+                <div class="final-direito">
+                        <div class="divisor">
+                            <p> <a href="#">Angola/Cacuaco/Mulenvos</a> </p>
+                            <p>&copy;2022 Nobre Fashion</p>
+                        </div>
+                </div>
+                </section>
+    </footer>
+</body>
+<script src="header-js.js"></script>
+<script>
+            let zona_produto = document.getElementById('productos');
+            let now = 1;
+            function recarregando(){   
+                aplicarIMG(now)
+                setInterval("trocarimg()",6000);
+
+            }
+        function aplicarIMG(a){
+            zona_produto.style.backgroundImage = "url(IMG/roupas"+a+".jpg)";
+            zona_produto.style.transition = "4s ease-in-out"
+            } 
+        function trocarimg(){
+            now++;
+            if (now >= 9) {
+                now = 1;
+            }
+            aplicarIMG(now);
+         }
+         function erro(){
+            zona_produto.innerHTML = "[ERRO] de formatação";  
+         }  
+
+</script>
+</html>

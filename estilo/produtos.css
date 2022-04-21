@@ -1,0 +1,182 @@
+   
+@font-face{
+    font-family:logo;
+    src: url('fontes/Gobold Hollow Bold Italic.otf') format('opentype');
+}
+@font-face{
+    font-family:links;
+    src: url('fontes/Gobold Thin.otf') format('opentype');
+}
+@font-face{
+    font-family:primeiro-paragrafo;
+    src: url('fontes/Melon Honey.otf') format('opentype');
+}
+        main{
+            padding-bottom:8em;
+            background-image:url(../IMG/rousa.jpg);
+        }
+        h1{
+            font-size:2em;
+            font-family: calibri;
+            margin:8px;
+            padding:8px;
+            color:#30bce6;
+        }
+        .produtos h1{
+            font-family: Arial;
+            font-size: 2.4em;
+            margin:4px;
+            padding:10px 6px;
+            width: 100%;
+            background-color: white;
+        }
+        h2{
+            padding-top:1em;
+        }
+        .infor-produtos{
+            font-size:2em;
+            padding: 3em 10px 1em 10px;
+            color: white;
+            font-family: calibri ,sans-serif;
+            text-align:center ;
+        }
+        p{
+            font-size: 1.5em;
+            padding:10px;
+        }
+        *{
+            margin:0;
+            padding: 0;
+        }
+        .itens ol{
+            list-style: none;
+            padding-bottom:5px;
+
+        }
+        .itens li {
+            margin: 4px;
+            padding:5px;
+            font-size:1.4em;
+            font-weight:560;
+            font-family: sans-serif;
+        }
+        .itens ol li ul li a{
+                display: none;     
+        }
+        .itens{
+            margin-top:0;
+            padding: 0 5px;
+            width:18%;
+            /*background-color:rgba(248, 249, 280, 0.8);/*#f8f9fa*/
+            display:inline-table;
+            border-right: 1px solid rgba(0, 0, 0, 0.4);
+        }
+        .itens ol li{
+            background-color:#30bce6;
+            text-indent: 10px;
+            font-size: 1.5em;
+            list-style: none;
+            margin: 2px;
+            padding: 1px;
+        }
+        .itens ol li a{
+            text-transform: uppercase;
+            color: white;
+        }
+        .produtos{
+            padding:0 20px;
+            width:55%;
+            display:inline-table;
+            padding-bottom:40px;   
+        }
+        @media(max-width:800px){
+        h1{
+            font-size:2.2em;
+            font-family: calibri;
+            margin:4px;
+            padding:4px;
+        }
+        p{
+            font-size: 1.4em;
+            padding:5px;
+        }
+        .itens ol{
+            padding-bottom:5px;
+        }
+        .itens li {
+            margin: 2px;
+            padding:3px;
+            font-size:1.6em;
+        }
+        .itens{
+            margin-top:0;
+            padding-right:5px;
+        }
+        .itens ul li{
+            margin: 1px 2px;
+        }
+        .produtos{
+            padding:0px;
+            width:60%;   
+        }   
+        .infor-produtos{
+            font-size:1.3em;
+            padding: 4em 5px 1em 5px;
+            color: white;
+            font-family: calibri ,sans-serif;
+            text-align:center ;
+        }
+        }
+        @media(max-width: 500px){
+        
+        h1{
+            font-family: Arial;
+            font-size: 2em;
+            margin:0;
+            text-align: center;
+            padding:8px 0px;
+            width: 100%;
+            background-color: white;
+        }
+        .produtos p{
+            font-size: 1.4em;
+            padding:5px;
+            color: black;
+            font-weight:100;
+            font-family: serif;
+        }
+        .produtos h1{
+            font-size:1.6em;
+            color: whitesmoke;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+            background-color: transparent;
+        }
+        .itens ol{
+            padding-bottom:3px;
+            padding-top: 10px;
+        }
+        .itens li {
+            margin: 4px 0;
+            padding:4px;
+            font-size:1em;
+            background-color:#30bce6;
+            width: 99%;
+        }
+         .itens ol li a{
+                color: white;
+                padding: 4px;               
+         }
+        .itens{
+            margin-top:4px;
+            padding-right:5px;
+            width: 100%;
+
+        }
+        .produtos{
+            padding:0px;
+            width:100%;
+            display: block;
+            margin-bottom: 2em;   
+        }   
+}
+       

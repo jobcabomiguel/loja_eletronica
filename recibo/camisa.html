@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>    
+    <link rel="stylesheet" href="../estilo/home.css">
+    <link rel="stylesheet" href="../assets/vendor/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet"  href="../estilo/rodape.css">
+    <link rel="stylesheet"  href="../estilo/meu.css">
+    <link rel="icon" href="../logo-pequeno.png">
+    <style>
+    .centro_recebo{
+        padding-top: 9em;
+        display: inline-table;
+        font-family: sans-serif;
+    }
+    .centro_recebo-e{
+        width:48%;
+        display: inline-table;   
+    }
+    .centro_recebo-d{
+        width:48%;
+        float: right;
+        display: inline-table;
+    }
+    h1{
+      font-size:2em;
+        font-family: arial;
+        background-color:#30bce6;
+        margin: 0;
+        padding: 10px;
+        border-radius:10px;  
+    }
+    
+    p{
+        font-size:1.6em;
+        padding:14px;
+        font-family: calibri;
+    }
+
+    @media(max-width: 500px){
+    .centro_recebo{
+        padding-top: 6em;
+        display: inline-table;
+        font-family: sans-serif;
+    }
+        section{
+            margin: 0;
+        }
+    .zona_recibo{
+        padding-top: 1em;
+    }
+    ol.apagar-500px li a, h4 {
+        display: block;
+    }
+    p{
+        font-size:1.2em;
+    }
+    h1{
+      font-size:1.5em;  
+    }
+}
+@media(max-width: 300px){
+    .centro_recebo{
+        padding-top: 4em;
+        display: inline-table;
+        font-family: sans-serif;
+    }
+        section{
+            margin: 0;
+        }
+    .zona_recibo{
+        padding-top: 0.8em;
+    }
+    ol.apagar-500px li a, h4 {
+        display: block;
+    }
+    p{
+        font-size:1em;
+    }
+    h1{
+      font-size:1em;  
+    }
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra aqui</title>
+
+</head> 
+    <body onload="inicia()">
+    <header class="minha-navbar navbar-toggler">
+        <article class="preta">
+            <div class="preta zona-preta zona-esquerda">
+                <ol class="links-preto fundo" >
+                    <li><a href="#">nobrefashion@gmail.com</a></li>
+                    <li><a href="#" id="numero_nobre">244 935-548-845</a></li>
+                </ol>
+            </div>
+            <div class="zona-preta zona-direita " style="float: right;">
+                <h3 class="logo-direito color">Nobre Fashion </h3>
+            </div>
+        </article>
+        <li id="mostrar"onclick="mostrar()"> 
+                        <span class="mostrar"></span>
+                        <span class="mostrar"></span>
+                        <span class="mostrar"></span>  
+                    </li>
+        <div id="logo">
+            <b id="logo_texto">Nobre <sup><span>Fashion</span></sup></b>
+            <img src="../IMG/logo.png" class="imagem-logo" id="logo_imagem"> 
+        </div>
+          <nav class="zona-nav">
+                <ul id="links">
+                    <button id="eliminar" onclick="eliminar()" class="desfazer">x</button>
+                    <li> <a href="../index.html" class="activo_focos">Home</a></li>
+                    <li> <a href="../produtos.html" style="color:#30bce6">Produtos</a></li>
+                    <li> <a href="../contactos.html">Contactos</a></li>
+                    <li> <a href="../sobre.html" class="barramento barramento-links">Sobre</a></li>
+                    <li> <a href="../Ajuda.html" class="barramento-links ">Ajuda</a></li>
+                </ul>
+        </nav>
+    </header>
+         <main class="zona_recibo">
+               <section class="centro_recebo"> 
+                   <article class="centro_recebo-e">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                    
+                    <p>consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                   </article>
+
+                   <article class="centro_recebo-d">
+                        <h1>Compra aqui</h1>
+                        <p>Para poder comprar as suas roupais ligue para a linha de atendimento ou ligue para o nosso WhatsApp também pode fazer as comprar por meio do nosso email especificando a sua morada e terá a roupa em sua porta em minutos.</p>
+                            <h1>Pontos de referências</h1>
+                            <p>Fizemos entregas em todos os municípios de Luanda, para facilitar o trabalho as entregas são feitas em pontos de referência de cada município.</p>
+
+                   </article>
+               </section>
+               <section class="planos">
+                   <article class="artigo_planos">
+                       <div class="imagens-fundo fundo1">
+                            <div class="fundo-texto">
+                                <h4>Cacuaco</h4>
+                                Vila de cacuaco, Centralidade do sequele, Praia de cacuaco, Mulenvos-baixo, SEAC de Cacuaco, universidade de Cangos Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven
+                            </div>
+                       </div>
+                       <div class="imagens-fundo fundo2">
+                            <div class="fundo-texto">
+                                    <h4>Cazenga</h4>
+                                Filda, Cuca, Marco estórico,Centralidade do Kalawenda, Na Jota, Mediateca Zedú, Rádio Cazenga, IFA,
+                            </div>
+                       </div>
+                       <div class="imagens-fundo fundo3">
+                            <div class="fundo-texto">
+                                <h4>Viana</h4>
+                                Vila de Viana, Shopite do Luanda Sul, 4 campos do Luanda sul, Kapalanca, Estalagem, Ponte Partida, Disvio do zango, Zango 1,2,3,4,5, Bela-Vista(Gamek), Casa da Juventude, Universidade piage, Candando, etc.  
+                            </div>
+                       </div>
+                       <div class="imagens-fundo fundo4">
+                            <div class="fundo-texto">
+                                <h4>Luanda</h4>
+                                Primeiro de Maio, Maianga, Mutamba, Baia, Sede da ENDE, Marcal, Prenda, Ingobota, Universidade de Letras, Universidade Metódista, Ilha de Luanda, Rangel, etc.
+                            </div>
+                       </div>
+                       <div class="imagens-fundo fundo5">
+                            <div class="fundo-texto">
+                                <h4>Belas</h4>
+                                    Tatalona, Projecto nova-vida, Gamek(Murro Bento), Aeroporto, Benfica, CCB, CCT. etc
+                            </div>
+                       </div>
+                       <div class="imagens-fundo fundo6">
+                            <div class="fundo-texto">
+                                <h4>Kilamba Kiaxe</h4>
+                                    Centralidade do Kilamba, Golf 2, Camama, Simão Toco, Kimbango, Universidade Católica, Shoprite do Palanca, etc. 
+                            </div>
+                       </div>
+                   </article>
+               </section>                                 
+            </main>
+    <footer>
+                <section class="rodape-zona">
+                        <div class="rodape">
+                                <ol class="links-em-linha">
+                                <h4> </h4>
+                               
+                        </div>
+                        <div class="rodape central">
+                            <div class="control">
+                            <ol class="links-em-linha">
+                                <h4> Links </h4>
+                                    <li> <a  href="../index.html">Menu</a></li>
+                                    <li> <a  href="../produtos.html">Produtos</a></li>
+                                    <li> <a  href="../contactos.html">Contactos</a></li>
+                                    <li> <a  href="../sobre.html">Sobre nós</a></li>
+                                    <li> <a  href="../ajuda.html">Ajuda</a></li>
+                            </ol>
+                            <ol class="links-em-linha apagar-500px">
+                                <h4> Agora </h4>
+                                    <li> <a  href="#">Inovações</a></li>
+                                    <li> <a  href="#">Actualidades</a></li>
+                                    <li> <a  href="#">Novos</a></li>
+                                    <li> <a  href="#">Criatividade</a></li>
+                            </ol>
+                            <ol class="links-em-linha">
+                                <h4> Apoios </h4>
+                                    <li> <a  href="#">Cleusa Baia</a></li>
+                                    <li> <a  href="#">Educando</a></li>
+                                    <li> <a  href="#">Alfa</a></li>
+                                    <li> <a  href="#">Cria aqui</a></li>
+                            </ol>
+                            </div>     
+                        </div>
+                        
+                        <div class="rodape rodape-direito">   
+                                <ol class="links-em-linha icones-links">
+                                <h4> Redes sociais </h4>
+                                    <li> <a href="#"  target="_blank"><i class="bi bi-facebook"></i></a></li>
+                                    <li> <a  href="#" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+                                    <li> <a  href="#" target="_blank"><i class="bi bi-telegram"></i></a></li>
+                                    <li> <a  href="#" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                            </ol>
+                        </div>
+                </section>
+
+                <section class="final">
+                <div class="final-esquerdo">
+                            <p> legal cookies  activar </p>
+                </div>
+                <div class="final-direito">
+                        <div class="divisor">
+                            <p> <a href="#">Angola/Cacuaco/Mulenvos</a> </p>
+                            <p>&copy;2022 Nobre Fashion</p>
+                        </div>
+                </div>
+                </section>
+    </footer>
+</body>
+<script src="../header-js.js"></script>
+<script>
+     var mensagem = 0; 
+     var mumero_max = 9;
+     var numero_min = 1;
+        function carregar_itens(mensagem){
+            var tempo_troca = 2;
+            actual = mensagem;
+            campo = document.getElementById('imagem1')
+            campo2 = document.getElementById('imagem2')
+            campo.style.backgroundImage = "url('IMG/roupa"+actual+".jpg')";
+            campo2.style.backgroundImage = "url('IMG/roupas"+actual+".jpg')";
+            campo.style.transition = ""+tempo_troca+"s";
+            campo2.style.transition = ""+tempo_troca+"s";
+        }
+        function trocar_itens(mes){ 
+            mensagem = mensagem + (mes); 
+            carregar_itens(mensagem);
+            if (mensagem > mumero_max) { mensagem=1;} else if (mensagem < numero_min){ mensagem =9;}
+        }
+/*</scridpt>*/
+</script>
+</html>

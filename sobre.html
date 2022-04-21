@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="pt-ao" id="">
+<head>
+    <link rel="stylesheet"  href="estilo/rodape.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="estilo/sobre.css">    
+    <link rel="stylesheet" href="estilo/home.css">
+    <link rel="icon" href="logo-pequeno.png">
+    <style> 
+    #imagens{
+        width:95%;
+        height:670px;
+    }
+     @media(max-width:800px){
+        #imagens{
+        width:99%;
+        height:500px;
+
+    }   
+}
+    @media(max-width:500px){
+        #imagens{
+        width:99%;
+        height:400px;
+
+    }   
+    }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nobre-Sobre</title>
+</head> 
+    <body onload="inicia()">
+    <header class="minha-navbar navbar-toggler">
+        <article class="preta">
+            <div class="preta zona-preta zona-esquerda">
+                <ol class="links-preto fundo" >
+                    <li><a href="#">nobrefashion@gmail.com</a></li>
+                    <li><a href="#">244 935-548-845</a></li>
+                </ol>
+            </div>
+            <div class="zona-preta zona-direita " style="float: right;">
+                <h3 class="logo-direito color">Nobre Fashion</h3>
+            </div>
+        </article>
+        <li id="mostrar"onclick="mostrar()"> 
+                        <span class="mostrar"></span>
+                        <span class="mostrar"></span>
+                        <span class="mostrar"></span>  
+                    </li>
+        <div id="logo">
+            <b id="logo_texto">Nobre <sup><span>Fashion</span></sup></b>
+            <img src="IMG/logo.png" class="imagem-logo" id="logo_imagem">
+        </div>
+          <nav class="zona-nav">
+                <ul id="links">
+                    <button class="desfazer" onclick="eliminar()">x</button>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="produtos.html">Produtos</a></li>
+                    <li> <a href="contactos.html">Contactos</a></li>
+                    <li> <a href="sobre.html"  style="color:#30bce6" class="barramento barramento-links">Sobre</a></li>
+                    <li> <a href="Ajuda.html" class="barramento-links ">Ajuda</a></li>
+                    </ul>
+        </nav>
+    </header>
+            <div class="infor color">
+                <h2  style="padding-top:1.4em;"> Sobre a Nobre Fashion</h2>
+                    <h3>Você pode encontra aqui todas as informações sobre a Nobre Fashion</h3>
+            </div>
+             <main class="nzila-fundo">
+                <section class="seccao-principal">
+                        <section class="seccao seccao-texto">
+                                <h3>
+                                    Como surgiu a Nobre Fashion
+                                </h3>
+                                <p> A Nobre Fashion foi criada por Miguel Nobre Neto, um jovem que vive em um bairro (Cacuaco/Mulenvos) não muito agradável socialmente, mas a espiração surgiu mesmo nestes momentos de dificuldade uma das suas grandes inspirações foi C.E.O da GLX.</p>
+
+                                <h3>Fundador da Nobre Fashion</h3>
+
+                                 <p>Miguel Nobre Neto nasceu aos 27/02/2001, em Angola/Luanda/Cazenga, filho de José Neto e de Maria Nobre, conclui o seu ensino médio em Cacuaco no colégio Kawanda, actualmente está cursando na Universidade Metódista de Angola o curso de Saúde.
+                                </p>
+                                <p>Profissionalmente é um jovem muito dedicado e trabalhador com grandes objectivos e sonhos, deseja concretiza-los um dos seus principais é tornar popular a marca Nobre e internacionaliza-la.</p>
+
+                                <h3>Agente da Nobre Fashion</h3>
+
+                                 <p>Job Cabo Miguel agente e desenvolvedor da Nobre Fashion. Job Cabo Miguel é um jovem que também vive no (Cacuaco/Mulenvos) está fazendo a sua formação média em Informática.
+                                </p>
+                                <p>Profissionalmente é um jovem que gosta muito de aprender, trabalhador fanático em tecnologia da computação e um viciado em programação web.</p>
+                        </section>
+                        <section class="seccao seccao-imagens">
+                            <figure>
+                                <figcaption>
+                                    <h2>Fundador da Nobre Fashion</h2>
+                                    <h3> Miguel Nobre</h3>
+                                </figcaption>
+                                <img src="nobre3.jpg" id="imagens">
+                            </figure>
+                            <figure>
+                                <figcaption>
+                                    <h2>Agente da Nobre Fashion</h2>
+                                    <h3> Job Kabo Miguel</h3>
+                                </figcaption>
+                                <img src="IMG/roupa4.jpg" id="imagens">
+                            </figure>
+                        </section>
+                </section>                   
+            </main>
+    <footer>
+                <section class="rodape-zona">
+                        <div class="rodape">
+                                <ol class="links-em-linha">
+                                <h4></h4>
+                            </ol>
+                        </div>
+                        <div class="rodape central">
+                            <div class="control">
+                            <ol class="links-em-linha">
+                                <h4> Links </h4>
+                                    <li> <a  href="index.html">Menu</a></li>
+                                    <li> <a  href="produtos.html">Produtos</a></li>
+                                    <li> <a  href="contactos.html">Contactos</a></li>
+                                    <li> <a  href="sobre.html">Sobre</a></li>
+                                    <li> <a  href="ajuda.html">Ajuda</a></li>
+                            </ol>
+                            <ol class="links-em-linha apagar-500px">
+                                <h4> Agora </h4>
+                                    <li> <a  href="#">Inovações</a></li>
+                                    <li> <a  href="#">Actualidades</a></li>
+                                    <li> <a  href="#">Novos</a></li>
+                                    <li> <a  href="#">Criatividade</a></li>
+                            </ol>
+                            <ol class="links-em-linha">
+                                <h4> Apoios </h4>
+                                    <li> <a  href="#">Creusa Baia</a></li>
+                                    <li> <a  href="#">Educando</a></li>
+                                    <li> <a  href="#">Alfa</a></li>
+                                    <li> <a  href="#">Cria aqui</a></li>
+                            </ol>
+                            </div>     
+                        </div>
+                        
+                        <div class="rodape rodape-direito">   
+                                <ol class="links-em-linha icones-links">
+                                <h4> Redes sociais </h4> 
+                                    <li> <a href="#"  target="_blank"><i class="bi bi-facebook"></i></a></li>
+                                    <li> <a  href="#" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+                                    <li> <a  href="#" target="_blank"><i class="bi bi-telegram"></i></a></li>
+                                    <li> <a  href="#" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                            </ol>
+                        </div>
+                </section>
+
+                <section class="final">
+                <div class="final-esquerdo">
+                            <p> legal cookies  activar </p>
+                </div>
+                <div class="final-direito">
+                        <div class="divisor">
+                            <p> <a href="#">Angola/Cacuaco/Mulenvos</a> </p>
+                            <p>&copy;2022 Nobre Fashion</p>
+                        </div>
+                </div>
+                </section>
+    </footer>
+</body>
+<script src="header-js.js"></script>
+</html>

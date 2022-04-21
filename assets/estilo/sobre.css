@@ -1,0 +1,287 @@
+  /*Seccao principal do aba de sobre ou informacao sobre o site */
+  body{
+    padding-bottom: 60px;
+}
+.seccao-principal{
+width: 94%;
+margin: 0 auto;
+}
+.seccao{
+display: inline-table;
+width: 45%;
+
+}    
+.seccao-imagens{
+float: right;
+}
+.infor{
+padding-top: 80px;
+padding-bottom: 40px;
+color: white;
+}
+.infor h2{
+font-size: 3.5em;
+font-family:calibri;
+text-indent:4em;
+}
+.infor h3{
+font-size:2em;
+padding: 10px 0px;
+text-indent:4.3em;
+font-family:calibri;
+word-spacing: 2px;
+}
+.seccao-texto{
+margin-left:20px;
+float: left;
+}
+.seccao-texto h3{
+font-size:2.6em;
+font-family:calibri;
+padding: 1px 0px;
+margin: 0px; 
+
+
+}
+p{
+font-size:1.8em;
+margin: 10px 0px;
+padding: 1px 0px;
+font-family:calibri;
+text-indent: 20px;
+}
+figure{
+margin:20px 10px;
+background-color:rgba(225, 225, 225, 0.4);
+padding: 5px 0px;
+font-family: arial;
+font-size: 1.4em;
+}
+figcaption{
+font-size:1em;
+padding:12px 0px;
+font-weight: bolder;
+text-align: center;
+color: #30bce6;
+}
+@media(max-width:1300px){
+.seccao-texto{
+margin-left:20px;
+
+}
+.seccao-texto h3{
+font-size:2.4em;
+font-family:calibri, sans-serif;
+margin: 0px;
+padding: 10px 0px;
+}
+p{
+font-size:1.4em;
+margin: 5px 5px;
+}
+.seccao-principal{
+width:99%;
+margin:0;
+height:30em;
+}
+.seccao{
+display: inline-table;
+width: 45%;       
+}
+.seccao-imagens{
+float: right;
+width: 45%;
+}
+figure{
+margin:20px 0;
+background-color:rgba(225, 225, 225, 0.4);
+padding: 5px;
+font-family: arial;
+font-size: 1.4em;
+}   
+}
+
+@media(max-width:800px){
+ body{
+height:65em;
+}
+
+p{
+font-size:1.2em;
+margin:2px;
+}
+.seccao-principal{
+width:99%;
+margin:0;
+height: 30em;
+}
+.infor h2{
+font-size: 2em;
+font-family:calibri;
+text-indent:4em;
+}
+.seccao{
+display: inline-table;
+width: 45%;       
+}
+.seccao-imagens{
+float: right;
+width: 50%;
+
+}  /*seccao de texto informacao e questoes acerca da Nobre*/
+.seccao-texto{
+margin-left:10px;
+
+}
+.seccao-texto h3{
+font-size:1.6em;
+margin: 0px;
+padding: 10px 0px;
+}
+/*Zona de informacao esrita em verde*/
+.infor{
+margin-left:5px;
+}
+.infor h2{
+font-size:2.6em;
+text-align: center;
+text-indent: 4px;
+}
+.infor h3{
+font-size:1.7em;
+text-indent:0.5em;
+}
+}   
+@media(max-width:500px){
+body{
+height:65em;
+}
+.logo h2{
+font-size: 1em;
+}
+
+p{
+font-size:1em;
+margin:2px;
+}
+.seccao-principal{
+width:99%;
+margin:0;
+height: 30em;
+}
+.seccao{
+display: inline-table;
+width: 45%;       
+}
+#imagens{
+  height:500px;
+}
+.seccao-imagens{
+float: right;
+width: 50%;
+
+}  /*seccao de texto informacao e questoes acerca da Nobre*/
+.seccao-texto{
+margin-left:10px;
+}
+.seccao-texto h3{
+font-size:1.4em;
+}
+/*Zona de informacao esrita em verde*/
+.infor{
+margin-left:5px;
+}
+.infor h2{
+font-size:2em;
+text-align: center;
+text-indent: 0px;
+}
+.infor h3{
+font-size:1em;
+text-indent:0.2em;
+}
+figure{
+margin:20px 0;
+background-color:rgba(225, 225, 225, 0.4);
+padding: 5px;
+font-family: arial;
+font-size: 0.8em;
+}
+main{
+margin-bottom:4em;
+
+}
+figcaption{
+font-size:0.8em;
+font-weight: bolder;
+text-align: center;
+}
+}
+@media(max-width:350px){
+body{
+height:65em;
+}
+.logo h2{
+font-size: 0.8em;
+}
+
+p{
+font-size:1em;
+margin:0px;
+}
+.seccao-principal{
+width:100%;
+margin:0;
+height: 30em;
+}
+.seccao{
+display: inline-table;
+width: 30%;       
+}
+.seccao-imagens{
+float: right;
+width: 48%;
+
+}  /*seccao de texto informacao e questoes acerca da Nobre*/
+.seccao-texto p{
+padding: 1px;
+font-size: 0.8em;
+}
+.seccao-texto h3{
+font-size:1em;
+}
+/*Zona de informacao esrita em verde*/
+.infor{
+margin-left:5px;
+padding-top: 5em;
+}
+.infor h2{
+padding-top: 4em;
+font-size:1.6em;
+text-align: center;
+text-indent: 0px;
+}
+.infor h3{
+padding-top: 1em;
+font-size:1em;
+text-indent:0.2em;
+padding-left: 4px;
+}
+figure{
+margin:10px 0;
+background-color:rgba(225, 225, 225, 0.4);
+padding: 0px;
+font-family: arial;
+font-size: 0.8em;
+}
+main{
+margin-bottom:4em;
+
+}
+figcaption{
+font-size:0.6em;
+padding:4px;
+font-weight: bolder;
+text-align: center;
+}
+}
