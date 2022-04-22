@@ -1,10 +1,10 @@
-## Seja bem vindoew ao nosso website
+## Seja bem vindo ao nosso website
 
 You can use the [editor on GitHub](https://github.com/jobcabomiguel/loja_eletronica/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+You can use the [editor on GitHub](https://github.com/jobcabomiguel/loja_eletronica/edit/main/index.com)) to maintain and preview the content for your website in Markdown files.
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
